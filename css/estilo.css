@@ -133,7 +133,8 @@ img {
   margin-bottom: 20px; }
 
 .form-floating {
-  color: white; }
+  color: white;
+  background-color: white; }
 
 .formulario {
   width: 400px;
@@ -143,7 +144,7 @@ img {
   margin-top: 100px;
   border-radius: 4px;
   font-family: 'calibri';
-  color: black;
+  color: white;
   box-shadow: 7px 13px 37px black;
   font-size: 22px;
   margin-bottom: 20px; }
@@ -188,6 +189,9 @@ legend {
   background-color: white;
   border: none; }
 
+  .form-control{
+    background-color: white;
+  }
 /*menu*/
 .main-info {
   display: flex;
